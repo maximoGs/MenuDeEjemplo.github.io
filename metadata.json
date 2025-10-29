@@ -1,0 +1,5 @@
+{
+  "name": "The Merchant's Scroll",
+  "description": "An interactive menu application designed as an action interface for the 'Adventurer's Journal'. It dynamically loads restaurant data from a configuration file and allows users to build an order, integrating with 'SideQuest' missions.",
+  "requestFramePermissions": []
+}
