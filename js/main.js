@@ -64,6 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         es: {
             subtitle: "RAÍCES ARGENTINAS // HOUSE // TECHNO",
+            aboutTitle: "EL ARTISTA",
+            aboutText1: "Emergiendo de la vibrante escena underground de Argentina, <span class='highlight'>Chano Smovir</span> une las raíces culturales tradicionales con el pulso futurista del <span class='highlight'>House & Techno</span>.",
+            aboutText2: "Sus sets no son solo música; son un viaje a través del vacío, iluminado por destellos de energía eléctrica. Una experiencia sónica diseñada para conectar almas en la pista de baile.",
             gallery_title: "GALERÍA",
             video_title: "SETS EN VIVO",
             video_caption: "Siente la energía del underground.",
@@ -86,6 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         en: {
             subtitle: "ARGENTINE ROOTS // HOUSE // TECHNO",
+            aboutTitle: "THE ARTIST",
+            aboutText1: "Emerging from the vibrant underground scene of Argentina, <span class='highlight'>Chano Smovir</span> bridges the gap between traditional cultural roots and the futuristic pulse of <span class='highlight'>House & Techno</span>.",
+            aboutText2: "His sets are not just music; they are a journey through the void, illuminated by flashes of electric energy. A sonic experience designed to connect souls on the dancefloor.",
             gallery_title: "GALLERY",
             video_title: "LIVE SETS",
             video_caption: "Experience the energy of the underground.",
@@ -120,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (translations[lang][key]) {
-                element.textContent = translations[lang][key];
+                element.innerHTML = translations[lang][key];
             }
         });
     }
