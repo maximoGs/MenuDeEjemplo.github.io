@@ -67,14 +67,40 @@ document.addEventListener('DOMContentLoaded', () => {
             video_title: "SETS EN VIVO",
             video_caption: "Siente la energía del underground.",
             connect_title: "CONECTAR",
-            footer_text: "Gestión y Diseño por Mysterik Producciones"
+            footer_text: "Gestión y Diseño por Mysterik Producciones",
+            rider_title: "RIDER",
+            tech_title: "RIDER TÉCNICO",
+            tech_item_1: "2x Pioneer CDJ-2000NXS2 / 3000",
+            tech_item_2: "1x Pioneer DJM-900NXS2 / V10",
+            tech_item_3: "2x Monitores de Cabina (Booth)",
+            tech_item_4: "Mesa de DJ sólida y estable",
+            tech_item_5: "Conexión Ethernet (Link)",
+            hosp_title: "HOSPITALIDAD",
+            hosp_item_1: "Hotel 4* (1 Habitación Doble)",
+            hosp_item_2: "Vuelos / Transporte terrestre cubierto",
+            hosp_item_3: "Cena para 2 personas antes del show",
+            hosp_item_4: "Bebidas en cabina (Agua, Vodka, Red Bull)",
+            hosp_item_5: "2x Pases All Access"
         },
         en: {
             gallery_title: "GALLERY",
             video_title: "LIVE SETS",
             video_caption: "Experience the energy of the underground.",
             connect_title: "CONNECT",
-            footer_text: "Management & Design by Mysterik Producciones"
+            footer_text: "Management & Design by Mysterik Producciones",
+            rider_title: "RIDER",
+            tech_title: "TECHNICAL RIDER",
+            tech_item_1: "2x Pioneer CDJ-2000NXS2 / 3000",
+            tech_item_2: "1x Pioneer DJM-900NXS2 / V10",
+            tech_item_3: "2x Booth Monitors",
+            tech_item_4: "Solid and stable DJ Table",
+            tech_item_5: "Ethernet Connection (Link)",
+            hosp_title: "HOSPITALITY",
+            hosp_item_1: "4* Hotel (1 Double Room)",
+            hosp_item_2: "Flights / Ground transport covered",
+            hosp_item_3: "Dinner for 2 before the show",
+            hosp_item_4: "Booth Drinks (Water, Vodka, Red Bull)",
+            hosp_item_5: "2x All Access Passes"
         }
     };
 

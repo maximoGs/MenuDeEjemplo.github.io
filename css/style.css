@@ -723,3 +723,64 @@ body {
         height: 250px;
     }
 }
+
+/* Rider Section */
+.rider-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.rider-card {
+    background: rgba(5, 5, 5, 0.6);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rider-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(138, 43, 226, 0.2);
+    border-color: var(--accent-violet);
+}
+
+.rider-card h3 {
+    color: var(--accent-violet);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.4);
+}
+
+.rider-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rider-list li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+}
+
+.rider-list li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--neon-purple);
+}
+
+/* Responsive Overrides for Rider */
+@media (max-width: 768px) {
+    .rider-grid {
+        grid-template-columns: 1fr;
+    }
+}
