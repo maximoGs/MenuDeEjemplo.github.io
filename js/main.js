@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'es';
     let currentCategory = 'classic_pizzas'; // Updated default category
+    let cart = [];
 
     // DOM Elements
     const menuGrid = document.getElementById('menu-grid');
